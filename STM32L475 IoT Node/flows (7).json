@@ -1,0 +1,863 @@
+[
+    {
+        "id": "f61da4159c111ea0",
+        "type": "tab",
+        "label": "STMIOT",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ccbdef647728a98a",
+        "type": "tab",
+        "label": "LED",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5adba600c43201d6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "193.95.57.20",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "53e6a8a2d6d889c6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c28212403f85cb6a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "193.95.57.20",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6f51f771c3486792",
+        "type": "firebase config",
+        "firebaseurl": "testfirebase-775fc-default-rtdb",
+        "loginType": "email"
+    },
+    {
+        "id": "2d66f44bcbe7fe36",
+        "type": "ui_group",
+        "name": "mesures en text",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6db6234716a966d0",
+        "type": "ui_group",
+        "name": "mesures en jauge",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5e350e38e2871f52",
+        "type": "ui_group",
+        "name": "mesures en graphique",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b546af0e940765dd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#145576",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#12b8ce",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#12b8ce",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#12b8ce",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#3edaee",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#12b8ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "first test ",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "5356f1e032e2caa1",
+        "type": "ui_group",
+        "name": "info UNO",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "00eec9d2dbcbffb5",
+        "type": "ui_group",
+        "name": "mesure en texte",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "72fdfeb3c9729c0c",
+        "type": "ui_group",
+        "name": "mesure en texte ",
+        "tab": "d828b8bac0b40f6c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "32a7446560a8232f",
+        "type": "ui_group",
+        "name": "mesure en jauge ",
+        "tab": "d828b8bac0b40f6c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6743d6622a472b7b",
+        "type": "ui_group",
+        "name": "Mesure en graphique",
+        "tab": "d828b8bac0b40f6c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "902640acf14ac106",
+        "type": "ui_group",
+        "name": "Leds",
+        "tab": "a832b58ed43c1227",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "47beed60623111f6",
+        "type": "ui_group",
+        "name": "mesures en text",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "429c4eae5464a838",
+        "type": "ui_group",
+        "name": "mesures en jauge",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "44406ef6a918f9fa",
+        "type": "ui_group",
+        "name": "mesures en graphique",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "aa70899806876377",
+        "type": "ui_group",
+        "name": "info UNO",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b0cead8e0a1dd7fa",
+        "type": "ui_group",
+        "name": "mesure en texte",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6f024bc4e2eb7416",
+        "type": "ui_group",
+        "name": "mesure en texte ",
+        "tab": "d828b8bac0b40f6c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3ae15b227526b4ca",
+        "type": "ui_group",
+        "name": "mesure en jauge ",
+        "tab": "d828b8bac0b40f6c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "84b42db4f01a2f27",
+        "type": "ui_group",
+        "name": "Mesure en graphique",
+        "tab": "d828b8bac0b40f6c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5f19a39362c67cd8",
+        "type": "ui_group",
+        "name": "Leds",
+        "tab": "a832b58ed43c1227",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d828b8bac0b40f6c",
+        "type": "ui_tab",
+        "name": "info UNO",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "a832b58ed43c1227",
+        "type": "ui_tab",
+        "name": "Commande des LEDS",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "02f20bfd4e0bdedf",
+        "type": "ui_tab",
+        "name": "info",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "37d33368fd5519a0",
+        "type": "ui_tab",
+        "name": "info",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "4d57ecca57a72a21",
+        "type": "ui_tab",
+        "name": "info UNO",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "0a402d6f330e61a5",
+        "type": "ui_tab",
+        "name": "Commande des LEDS",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "ade2ef971d522823",
+        "type": "ui_tab",
+        "name": "info",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "d0d9a40262c6d885",
+        "type": "ui_tab",
+        "name": "info",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "83b345206a7240b8",
+        "type": "ui_group",
+        "name": "mesures en text",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4a0ba361330481d1",
+        "type": "ui_group",
+        "name": "mesures en jauge",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8ff257a6b76f0b66",
+        "type": "ui_group",
+        "name": "mesures en graphique",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "261cbe7791742c91",
+        "type": "ui_group",
+        "name": "info UNO",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "10ab713968ca3796",
+        "type": "ui_group",
+        "name": "mesure en texte",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4653a2e75e0b2c97",
+        "type": "ui_group",
+        "name": "mesure en texte ",
+        "tab": "d828b8bac0b40f6c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5a654916846e4cea",
+        "type": "ui_group",
+        "name": "mesure en jauge ",
+        "tab": "d828b8bac0b40f6c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "387ca5cce93642ad",
+        "type": "ui_group",
+        "name": "Mesure en graphique",
+        "tab": "d828b8bac0b40f6c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "359cf2b6328baa4f",
+        "type": "ui_group",
+        "name": "Leds",
+        "tab": "a832b58ed43c1227",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5a40cd3213ed5e46",
+        "type": "mqtt in",
+        "z": "f61da4159c111ea0",
+        "name": "messages Uno",
+        "topic": "station/#",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "53e6a8a2d6d889c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "e8a6b5725158a4e6",
+                "a291307e7c55530c",
+                "237cbeb98735a2a1",
+                "f5aaf0cab3fc4a61"
+            ]
+        ]
+    },
+    {
+        "id": "e8a6b5725158a4e6",
+        "type": "debug",
+        "z": "f61da4159c111ea0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "41fe0a7d90ac9c20",
+        "type": "ui_text",
+        "z": "f61da4159c111ea0",
+        "tab": "a832b58ed43c1227",
+        "name": "texte hum",
+        "group": "72fdfeb3c9729c0c",
+        "order": 2,
+        "format": "{{msg.payload}}",
+        "x": 680,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a291307e7c55530c",
+        "type": "function",
+        "z": "f61da4159c111ea0",
+        "name": "filtre humidité",
+        "func": "if(msg.topic == \"station/humidite\")\n{ \n    msg.payload=msg.payload + \"%\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 200,
+        "wires": [
+            [
+                "41fe0a7d90ac9c20",
+                "f05f1a1040d0264a",
+                "a51b868e2a03ae07"
+            ]
+        ]
+    },
+    {
+        "id": "237cbeb98735a2a1",
+        "type": "function",
+        "z": "f61da4159c111ea0",
+        "name": "filtre temperature",
+        "func": "if(msg.topic == \"station/temperature\")\n{ \n   msg.payload=msg.payload + \"°\"\n   return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 300,
+        "wires": [
+            [
+                "bcc51129c3c40f59",
+                "5b8f65e6745cbb35",
+                "cc13d7e77b60e024"
+            ]
+        ]
+    },
+    {
+        "id": "bcc51129c3c40f59",
+        "type": "ui_text",
+        "z": "f61da4159c111ea0",
+        "tab": "a832b58ed43c1227",
+        "name": "texte temp",
+        "group": "72fdfeb3c9729c0c",
+        "order": 1,
+        "format": "{{msg.payload}}",
+        "x": 670,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f05f1a1040d0264a",
+        "type": "ui_gauge",
+        "z": "f61da4159c111ea0",
+        "tab": "a832b58ed43c1227",
+        "name": "jauge humidité",
+        "group": "32a7446560a8232f",
+        "order": 0,
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "x": 680,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "5b8f65e6745cbb35",
+        "type": "ui_chart",
+        "z": "f61da4159c111ea0",
+        "tab": "a832b58ed43c1227",
+        "name": "graphe température ",
+        "group": "6743d6622a472b7b",
+        "order": 0,
+        "interpolate": "linear",
+        "nodata": "",
+        "removeOlder": 1,
+        "removeOlderUnit": "60",
+        "x": 690,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f5aaf0cab3fc4a61",
+        "type": "function",
+        "z": "f61da4159c111ea0",
+        "name": "filtre Pression",
+        "func": "if(msg.topic == \"station/pression\")\n{ \n    msg.payload=msg.payload + \"bar\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "c2e59f5e406af5ac",
+                "c85a8cab76276526",
+                "a5c3fb9d199a6638"
+            ]
+        ]
+    },
+    {
+        "id": "c2e59f5e406af5ac",
+        "type": "ui_text",
+        "z": "f61da4159c111ea0",
+        "tab": "a832b58ed43c1227",
+        "name": "mesure pression",
+        "group": "72fdfeb3c9729c0c",
+        "order": 2,
+        "format": "{{msg.payload}}",
+        "x": 650,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "c85a8cab76276526",
+        "type": "ui_gauge",
+        "z": "f61da4159c111ea0",
+        "tab": "a832b58ed43c1227",
+        "name": "pression mesure",
+        "group": "32a7446560a8232f",
+        "order": 1,
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "x": 650,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "a51b868e2a03ae07",
+        "type": "firebase modify",
+        "z": "f61da4159c111ea0",
+        "name": "",
+        "firebaseconfig": "6f51f771c3486792",
+        "childpath": "humudite",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 830,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc13d7e77b60e024",
+        "type": "firebase modify",
+        "z": "f61da4159c111ea0",
+        "name": "",
+        "firebaseconfig": "6f51f771c3486792",
+        "childpath": "temperature",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 840,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5c3fb9d199a6638",
+        "type": "firebase modify",
+        "z": "f61da4159c111ea0",
+        "name": "",
+        "firebaseconfig": "6f51f771c3486792",
+        "childpath": "pression",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 790,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c6428b7b9d3c9ec",
+        "type": "ui_switch",
+        "z": "ccbdef647728a98a",
+        "tab": "a832b58ed43c1227",
+        "name": "switch bleu",
+        "topic": "topic",
+        "group": "902640acf14ac106",
+        "order": 0,
+        "onvalue": "ON",
+        "offvalue": "OFF",
+        "x": 430,
+        "y": 140,
+        "wires": [
+            [
+                "4c4e98de5ac44e39"
+            ]
+        ]
+    },
+    {
+        "id": "4c4e98de5ac44e39",
+        "type": "mqtt out",
+        "z": "ccbdef647728a98a",
+        "name": "led bleu",
+        "topic": "stationUno/switchbleu",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "53e6a8a2d6d889c6",
+        "x": 700,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "53a86d635a5a2d21",
+        "type": "function",
+        "z": "ccbdef647728a98a",
+        "name": "filtre led bleu ",
+        "func": "if (msg.payload ==1)\n{\n    \n    msg.paylaod= \"off\";\n    return msg;\n\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "9c6428b7b9d3c9ec"
+            ]
+        ]
+    },
+    {
+        "id": "b821d4010eb679c5",
+        "type": "ui_switch",
+        "z": "ccbdef647728a98a",
+        "tab": "a832b58ed43c1227",
+        "name": "Switch",
+        "topic": "",
+        "group": "",
+        "order": 1,
+        "onvalue": "true",
+        "offvalue": "false",
+        "x": 40,
+        "y": 140,
+        "wires": [
+            [
+                "53a86d635a5a2d21"
+            ]
+        ]
+    }
+]
